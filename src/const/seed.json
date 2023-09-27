@@ -1,0 +1,2372 @@
+[
+  {
+    "product": [
+      {
+        "id": "72a58e60-4a1d-4dcf-841d-20d4a6c5b160",
+        "name": "Pain Relief Gel",
+        "description": "Relieves muscle and joint pain",
+        "price": 49108,
+        "quantity": 38611,
+        "created_at": "2023-09-26T14:22:16.447Z",
+        "updated_at": "2023-09-27T00:05:31.511Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "afac4e65-3d00-41d7-a3bf-427afa385c93",
+        "name": "Vitamin C Supplement",
+        "description": "Boosts immune system",
+        "price": 67289,
+        "quantity": 78383,
+        "created_at": "2023-09-26T22:21:18.297Z",
+        "updated_at": "2023-09-26T18:17:22.534Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "329cd383-ce26-4d68-bb5a-f1868f678575",
+        "name": "Allergy Relief Tablets",
+        "description": "Provides relief from allergies",
+        "price": 54272,
+        "quantity": 58006,
+        "created_at": "2023-09-27T01:38:00.499Z",
+        "updated_at": "2023-09-26T10:14:56.368Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "c2769b48-2de1-4916-a9c8-6ea110906127",
+        "name": "Cold and Flu Syrup",
+        "description": "Relieves cold and flu symptoms",
+        "price": 42804,
+        "quantity": 34438,
+        "created_at": "2023-09-26T16:43:13.158Z",
+        "updated_at": "2023-09-26T13:25:17.494Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "617bc66c-ca84-453d-8d9c-184f56746bf0",
+        "name": "Antibacterial Hand Sanitizer",
+        "description": "Kills germs and bacteria",
+        "price": 53837,
+        "quantity": 63564,
+        "created_at": "2023-09-27T05:53:10.759Z",
+        "updated_at": "2023-09-26T19:16:49.135Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "82517aac-1cb2-496f-a6b4-8ebf1e96e2fa",
+        "total_price": 41031,
+        "status": "Pending",
+        "created_at": "2023-09-26T11:44:32.584Z",
+        "updated_at": "2023-09-26T12:45:47.303Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d358ad7e-975b-4c38-b698-17c33805aa1a",
+        "total_price": 88129,
+        "status": "Processing",
+        "created_at": "2023-09-26T13:11:43.497Z",
+        "updated_at": "2023-09-26T07:04:53.900Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29153446-3605-404a-92f0-e64a5ab2cc9b",
+        "total_price": 73765,
+        "status": "Shipped",
+        "created_at": "2023-09-27T02:39:44.940Z",
+        "updated_at": "2023-09-26T20:19:51.312Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fb8dc8a-0af3-4173-94a7-756f72ca07ef",
+        "total_price": 37112,
+        "status": "Delivered",
+        "created_at": "2023-09-26T12:44:24.797Z",
+        "updated_at": "2023-09-26T17:48:35.002Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f787721-52b8-4fab-8487-7e6fe3dd9243",
+        "total_price": 41762,
+        "status": "Cancelled",
+        "created_at": "2023-09-26T20:56:58.186Z",
+        "updated_at": "2023-09-26T22:21:16.900Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "690f309b-ee7d-4f0c-9fbd-4194ac87a616",
+        "quantity": 91584,
+        "price": 80989,
+        "created_at": "2023-09-27T05:23:11.269Z",
+        "updated_at": "2023-09-26T17:04:50.128Z",
+        "order_id": "3fb8dc8a-0af3-4173-94a7-756f72ca07ef",
+        "product_id": "afac4e65-3d00-41d7-a3bf-427afa385c93"
+      },
+      {
+        "id": "113a0a46-75e2-4efc-87c9-9bb98b9298cd",
+        "quantity": 30404,
+        "price": 4178,
+        "created_at": "2023-09-26T09:43:02.455Z",
+        "updated_at": "2023-09-26T16:47:18.542Z",
+        "order_id": "3fb8dc8a-0af3-4173-94a7-756f72ca07ef",
+        "product_id": "329cd383-ce26-4d68-bb5a-f1868f678575"
+      },
+      {
+        "id": "0980295a-89f8-4bc0-874e-4367364a78a2",
+        "quantity": 35516,
+        "price": 37510,
+        "created_at": "2023-09-26T20:37:40.215Z",
+        "updated_at": "2023-09-26T18:12:46.629Z",
+        "order_id": "3fb8dc8a-0af3-4173-94a7-756f72ca07ef",
+        "product_id": "c2769b48-2de1-4916-a9c8-6ea110906127"
+      },
+      {
+        "id": "d67c2b4a-3de9-49fe-915a-2859156ba27a",
+        "quantity": 72211,
+        "price": 41646,
+        "created_at": "2023-09-26T16:11:11.066Z",
+        "updated_at": "2023-09-27T02:10:56.025Z",
+        "order_id": "29153446-3605-404a-92f0-e64a5ab2cc9b",
+        "product_id": "c2769b48-2de1-4916-a9c8-6ea110906127"
+      },
+      {
+        "id": "77af62e7-f5ae-4f42-a16a-328df4e1042d",
+        "quantity": 73513,
+        "price": 21247,
+        "created_at": "2023-09-26T22:13:21.559Z",
+        "updated_at": "2023-09-26T13:41:48.751Z",
+        "order_id": "7f787721-52b8-4fab-8487-7e6fe3dd9243",
+        "product_id": "329cd383-ce26-4d68-bb5a-f1868f678575"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f3eb94a6-f38b-41eb-bd25-c27c5c813cc6",
+        "quantity": 11853,
+        "created_at": "2023-09-27T02:24:32.809Z",
+        "updated_at": "2023-09-26T21:17:29.320Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "c2769b48-2de1-4916-a9c8-6ea110906127"
+      },
+      {
+        "id": "e5e1c19d-c77f-4565-86a2-387a3729994b",
+        "quantity": 84593,
+        "created_at": "2023-09-26T20:22:20.668Z",
+        "updated_at": "2023-09-27T03:27:04.078Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "329cd383-ce26-4d68-bb5a-f1868f678575"
+      },
+      {
+        "id": "19fd565f-52f0-43a0-9bb9-06c561fff085",
+        "quantity": 82120,
+        "created_at": "2023-09-26T08:14:30.341Z",
+        "updated_at": "2023-09-26T09:40:34.245Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "c2769b48-2de1-4916-a9c8-6ea110906127"
+      },
+      {
+        "id": "05a37bb9-5d31-42ff-b728-c2ebb21354d5",
+        "quantity": 80913,
+        "created_at": "2023-09-27T01:40:05.001Z",
+        "updated_at": "2023-09-26T18:13:18.913Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "617bc66c-ca84-453d-8d9c-184f56746bf0"
+      },
+      {
+        "id": "e8c626a4-7353-4bcc-980f-b9d5e421e843",
+        "quantity": 45726,
+        "created_at": "2023-09-26T10:53:45.989Z",
+        "updated_at": "2023-09-26T18:26:39.181Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "329cd383-ce26-4d68-bb5a-f1868f678575"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "40f49918-8aa7-4d25-81ca-9b50a269ab3e",
+        "email": "Mireille.Walsh@roq.tech",
+        "firstName": "Tito",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "307bbb2e-729b-4d70-982c-a5b7ce6ab7bd",
+        "email": "Rebekah.Stiedemann@roq.tech",
+        "firstName": "Yolanda",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88352929",
+        "tenantId": null
+      },
+      {
+        "reference": "35dccdeb-7626-493c-9098-6c8b246adf78",
+        "email": "Keshaun.Hudson@roq.tech",
+        "firstName": "Loyal",
+        "lastName": "MacGyver-Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6896902",
+        "tenantId": null
+      },
+      {
+        "reference": "83621ea8-e4bd-48a7-8044-ab865828dafa",
+        "email": "Jazmyn.Adams67@roq.tech",
+        "firstName": "Khalid",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11664114",
+        "tenantId": null
+      },
+      {
+        "reference": "a8f9aee7-7900-45b9-b9b3-6688a4cb426e",
+        "email": "Elnora0@roq.tech",
+        "firstName": "Regan",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "608c7eca-749f-4539-94ff-11da0970423d",
+        "name": "Pain Relief Gel",
+        "description": "Fast-acting gel for temporary relief of muscle pain and inflammation",
+        "price": 64317,
+        "quantity": 92803,
+        "created_at": "2023-09-27T03:48:16.277Z",
+        "updated_at": "2023-09-27T01:05:33.258Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "8f2d3a06-2c69-49a4-b78a-086f9a96313f",
+        "name": "Multivitamin Tablets",
+        "description": "Essential vitamins and minerals for overall health and wellness",
+        "price": 38657,
+        "quantity": 79265,
+        "created_at": "2023-09-26T11:23:01.140Z",
+        "updated_at": "2023-09-26T12:46:04.187Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "08160b03-3d0b-4cc5-961d-7917f7da74fe",
+        "name": "Cold and Flu Syrup",
+        "description": "Soothing syrup to relieve symptoms of cold and flu",
+        "price": 86205,
+        "quantity": 44822,
+        "created_at": "2023-09-27T03:09:14.707Z",
+        "updated_at": "2023-09-26T19:59:22.206Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "20eecf2b-0315-48ea-b9f1-c4ac717155d7",
+        "name": "Allergy Relief Tablets",
+        "description": "Non-drowsy tablets for allergy relief",
+        "price": 5099,
+        "quantity": 49461,
+        "created_at": "2023-09-27T00:21:56.465Z",
+        "updated_at": "2023-09-27T03:32:29.380Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "0b2963a7-7638-471c-ac39-baf424b3d17c",
+        "name": "Digestive Health Capsules",
+        "description": "Promotes healthy digestion and supports gut health",
+        "price": 71987,
+        "quantity": 84333,
+        "created_at": "2023-09-26T23:03:12.181Z",
+        "updated_at": "2023-09-26T18:21:20.063Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "30940713-11a9-4cb6-a240-842ff5d1399f",
+        "total_price": 68527,
+        "status": "Pending",
+        "created_at": "2023-09-26T21:46:20.822Z",
+        "updated_at": "2023-09-26T18:25:36.547Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eff6fdf7-14b1-41ed-bf2b-bdbe23bcb5ff",
+        "total_price": 50553,
+        "status": "Processing",
+        "created_at": "2023-09-26T12:17:35.428Z",
+        "updated_at": "2023-09-26T16:17:40.765Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e52370d5-9179-4048-8fb0-53e6d7915c7e",
+        "total_price": 27797,
+        "status": "Shipped",
+        "created_at": "2023-09-26T17:41:45.558Z",
+        "updated_at": "2023-09-27T04:00:08.919Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b2cb258-afa9-4779-8ff6-4c2dbbe98d5d",
+        "total_price": 36650,
+        "status": "Delivered",
+        "created_at": "2023-09-26T14:32:13.113Z",
+        "updated_at": "2023-09-26T18:01:52.234Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e5bf501-5bfb-49cf-a655-1e6286cbb374",
+        "total_price": 49157,
+        "status": "Cancelled",
+        "created_at": "2023-09-27T05:09:13.890Z",
+        "updated_at": "2023-09-27T02:55:10.610Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "554caedb-2425-4a0d-b62a-5ef8aab2b363",
+        "quantity": 7551,
+        "price": 31550,
+        "created_at": "2023-09-26T12:38:39.995Z",
+        "updated_at": "2023-09-26T12:24:11.662Z",
+        "order_id": "e52370d5-9179-4048-8fb0-53e6d7915c7e",
+        "product_id": "0b2963a7-7638-471c-ac39-baf424b3d17c"
+      },
+      {
+        "id": "48ee039d-a722-450e-988f-4a3e6dc83f73",
+        "quantity": 14714,
+        "price": 74029,
+        "created_at": "2023-09-26T19:52:40.156Z",
+        "updated_at": "2023-09-26T22:49:33.825Z",
+        "order_id": "0e5bf501-5bfb-49cf-a655-1e6286cbb374",
+        "product_id": "20eecf2b-0315-48ea-b9f1-c4ac717155d7"
+      },
+      {
+        "id": "d975be90-a93f-409f-a023-6804336872bb",
+        "quantity": 7608,
+        "price": 89490,
+        "created_at": "2023-09-26T14:49:43.002Z",
+        "updated_at": "2023-09-26T11:28:34.932Z",
+        "order_id": "0e5bf501-5bfb-49cf-a655-1e6286cbb374",
+        "product_id": "8f2d3a06-2c69-49a4-b78a-086f9a96313f"
+      },
+      {
+        "id": "ee28ab90-86c9-4a9f-bfcf-80b25bac69a6",
+        "quantity": 73513,
+        "price": 39621,
+        "created_at": "2023-09-26T16:23:37.763Z",
+        "updated_at": "2023-09-27T04:14:28.711Z",
+        "order_id": "30940713-11a9-4cb6-a240-842ff5d1399f",
+        "product_id": "08160b03-3d0b-4cc5-961d-7917f7da74fe"
+      },
+      {
+        "id": "e23e70d1-d31b-4ba6-88dc-ae36579136dd",
+        "quantity": 75000,
+        "price": 90908,
+        "created_at": "2023-09-27T02:25:25.135Z",
+        "updated_at": "2023-09-27T05:20:13.587Z",
+        "order_id": "eff6fdf7-14b1-41ed-bf2b-bdbe23bcb5ff",
+        "product_id": "8f2d3a06-2c69-49a4-b78a-086f9a96313f"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "bb34bc2d-99a7-4287-a0f6-6b38c5f8a0b3",
+        "quantity": 31903,
+        "created_at": "2023-09-27T01:26:06.058Z",
+        "updated_at": "2023-09-26T09:32:10.054Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "20eecf2b-0315-48ea-b9f1-c4ac717155d7"
+      },
+      {
+        "id": "a306ad6b-db9c-43f1-8692-9afe736f1268",
+        "quantity": 39347,
+        "created_at": "2023-09-27T04:35:36.270Z",
+        "updated_at": "2023-09-26T07:22:48.253Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "608c7eca-749f-4539-94ff-11da0970423d"
+      },
+      {
+        "id": "2e416e04-9866-459d-b248-bd61c34f8182",
+        "quantity": 43470,
+        "created_at": "2023-09-26T23:57:49.203Z",
+        "updated_at": "2023-09-26T08:03:58.495Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "608c7eca-749f-4539-94ff-11da0970423d"
+      },
+      {
+        "id": "d8be75c0-b4ff-47b2-9684-6891796382b7",
+        "quantity": 44796,
+        "created_at": "2023-09-26T16:51:00.669Z",
+        "updated_at": "2023-09-26T20:05:50.122Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "0b2963a7-7638-471c-ac39-baf424b3d17c"
+      },
+      {
+        "id": "cc1b682a-cbee-4cd6-96b5-545fd26fea5d",
+        "quantity": 3324,
+        "created_at": "2023-09-27T03:41:17.982Z",
+        "updated_at": "2023-09-27T02:33:49.127Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "0b2963a7-7638-471c-ac39-baf424b3d17c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a71a2f84-4a09-4f45-98e4-2bfbd961388f",
+        "email": "Emanuel20@roq.tech",
+        "firstName": "Stanley",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/523.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7010f35-87f6-4ce2-9f16-1f17a1700208",
+        "email": "Marvin44@roq.tech",
+        "firstName": "Dortha",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab9611fd-f05b-4229-b270-4b30b4c6f65e",
+        "email": "Ernestina.Jenkins@roq.tech",
+        "firstName": "Myles",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/51.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34c93e9c-ae0b-4c9a-a224-f5f742f8a1c4",
+        "email": "Morton_Fritsch@roq.tech",
+        "firstName": "Jailyn",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31990868",
+        "tenantId": null
+      },
+      {
+        "reference": "65d718b9-6c7f-426d-af86-ad2968d80385",
+        "email": "Hailie.Watsica92@roq.tech",
+        "firstName": "Lou",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31783828",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "b278b187-fcb2-429a-a3a4-d563b916e331",
+        "name": "Pain Relief Gel",
+        "description": "Fast-acting gel for quick pain relief",
+        "price": 46240,
+        "quantity": 59758,
+        "created_at": "2023-09-26T12:03:34.888Z",
+        "updated_at": "2023-09-26T10:09:46.328Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "ba4bc467-c68e-4b41-a05d-ad030392838a",
+        "name": "Multivitamin Tablets",
+        "description": "Essential vitamins for overall health",
+        "price": 4457,
+        "quantity": 87924,
+        "created_at": "2023-09-26T21:17:55.004Z",
+        "updated_at": "2023-09-26T18:21:15.361Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "da71723b-c434-408e-99fa-2c37cb3e63f0",
+        "name": "Cough Syrup",
+        "description": "Effective syrup for cough relief",
+        "price": 17929,
+        "quantity": 44799,
+        "created_at": "2023-09-26T19:25:17.348Z",
+        "updated_at": "2023-09-26T07:55:28.948Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "ae0668d8-88a8-46af-b26b-4c4a8155afaa",
+        "name": "Antibacterial Soap",
+        "description": "Gentle soap with antibacterial properties",
+        "price": 34523,
+        "quantity": 74686,
+        "created_at": "2023-09-26T23:14:23.305Z",
+        "updated_at": "2023-09-26T20:38:01.646Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "6bd66ef4-3794-4cc9-9abf-24eae682681c",
+        "name": "Allergy Relief Tablets",
+        "description": "Relieves symptoms of allergies",
+        "price": 66012,
+        "quantity": 23059,
+        "created_at": "2023-09-27T02:08:14.588Z",
+        "updated_at": "2023-09-26T12:08:22.426Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "7dd71923-66a1-4c73-bef7-7ec5103d8f19",
+        "total_price": 42024,
+        "status": "Pending",
+        "created_at": "2023-09-26T17:02:53.211Z",
+        "updated_at": "2023-09-26T09:20:55.781Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99f36185-f16a-4e8d-8438-8498a29bddef",
+        "total_price": 24871,
+        "status": "Processing",
+        "created_at": "2023-09-26T11:11:26.327Z",
+        "updated_at": "2023-09-27T04:10:47.767Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87ccd8a9-7fe4-4f10-a78b-6997851eaab0",
+        "total_price": 29428,
+        "status": "Shipped",
+        "created_at": "2023-09-26T10:46:59.677Z",
+        "updated_at": "2023-09-26T19:35:04.125Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3cb53fb-b979-4cfd-acce-d42b898b6a94",
+        "total_price": 32558,
+        "status": "Delivered",
+        "created_at": "2023-09-26T22:51:37.110Z",
+        "updated_at": "2023-09-26T21:49:02.605Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b236b696-6b12-4673-92eb-8bbe7bb7cabe",
+        "total_price": 14745,
+        "status": "Cancelled",
+        "created_at": "2023-09-26T07:09:49.015Z",
+        "updated_at": "2023-09-26T10:27:16.215Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "dd204e36-2b74-45ef-9b1d-be3d99a0218c",
+        "quantity": 47517,
+        "price": 38847,
+        "created_at": "2023-09-27T06:41:29.845Z",
+        "updated_at": "2023-09-26T18:16:35.986Z",
+        "order_id": "e3cb53fb-b979-4cfd-acce-d42b898b6a94",
+        "product_id": "ae0668d8-88a8-46af-b26b-4c4a8155afaa"
+      },
+      {
+        "id": "0168336b-bce4-41b6-92bd-e28896f6118a",
+        "quantity": 71279,
+        "price": 38759,
+        "created_at": "2023-09-27T02:02:13.208Z",
+        "updated_at": "2023-09-27T03:30:21.407Z",
+        "order_id": "87ccd8a9-7fe4-4f10-a78b-6997851eaab0",
+        "product_id": "b278b187-fcb2-429a-a3a4-d563b916e331"
+      },
+      {
+        "id": "c2d567fe-ad93-41b2-bf7c-ed87186f4786",
+        "quantity": 10274,
+        "price": 70388,
+        "created_at": "2023-09-27T03:00:50.316Z",
+        "updated_at": "2023-09-27T06:45:25.616Z",
+        "order_id": "e3cb53fb-b979-4cfd-acce-d42b898b6a94",
+        "product_id": "b278b187-fcb2-429a-a3a4-d563b916e331"
+      },
+      {
+        "id": "b42429d9-f4d4-45ed-ab6e-814e2300f1f2",
+        "quantity": 71258,
+        "price": 96262,
+        "created_at": "2023-09-27T05:37:24.871Z",
+        "updated_at": "2023-09-26T13:45:41.266Z",
+        "order_id": "b236b696-6b12-4673-92eb-8bbe7bb7cabe",
+        "product_id": "ae0668d8-88a8-46af-b26b-4c4a8155afaa"
+      },
+      {
+        "id": "bf8d7f86-d669-48c7-9410-4e879991f1c2",
+        "quantity": 27496,
+        "price": 90994,
+        "created_at": "2023-09-27T06:14:43.761Z",
+        "updated_at": "2023-09-26T13:38:28.472Z",
+        "order_id": "7dd71923-66a1-4c73-bef7-7ec5103d8f19",
+        "product_id": "da71723b-c434-408e-99fa-2c37cb3e63f0"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a47f33cf-1f2e-4acc-b6a9-48bc98852159",
+        "quantity": 9808,
+        "created_at": "2023-09-27T03:06:54.066Z",
+        "updated_at": "2023-09-26T11:23:41.571Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "b278b187-fcb2-429a-a3a4-d563b916e331"
+      },
+      {
+        "id": "e1a9ee8d-debd-4f44-b25c-9749f9dad76a",
+        "quantity": 11300,
+        "created_at": "2023-09-27T04:34:21.601Z",
+        "updated_at": "2023-09-26T15:01:51.742Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "b278b187-fcb2-429a-a3a4-d563b916e331"
+      },
+      {
+        "id": "42a4d6a3-54ce-4297-8cd4-01ba427ae62e",
+        "quantity": 34083,
+        "created_at": "2023-09-26T15:34:33.164Z",
+        "updated_at": "2023-09-27T03:44:19.293Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "ae0668d8-88a8-46af-b26b-4c4a8155afaa"
+      },
+      {
+        "id": "db98a44f-3bb3-4b9b-9f80-bf9ee17ede96",
+        "quantity": 73089,
+        "created_at": "2023-09-26T22:09:10.914Z",
+        "updated_at": "2023-09-26T10:19:03.948Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "ba4bc467-c68e-4b41-a05d-ad030392838a"
+      },
+      {
+        "id": "e6e47f78-8416-424e-a268-cf6f5c8535ca",
+        "quantity": 25257,
+        "created_at": "2023-09-26T10:19:45.007Z",
+        "updated_at": "2023-09-27T06:44:13.804Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "ae0668d8-88a8-46af-b26b-4c4a8155afaa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ad49a82a-625e-43f4-ab24-79764f457eaf",
+        "email": "Francis.Jacobs32@roq.tech",
+        "firstName": "Ross",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/165.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1240736-82f0-4f6f-9b37-7b4c3b4754db",
+        "email": "Mae.Kassulke@roq.tech",
+        "firstName": "Kiley",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70010788",
+        "tenantId": null
+      },
+      {
+        "reference": "380332e5-5ddc-4a33-bc15-c9222b033244",
+        "email": "Anna_Will63@roq.tech",
+        "firstName": "Mabel",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/303.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e20683f2-4222-4ad2-aac9-41fc438d0108",
+        "email": "Bernadette62@roq.tech",
+        "firstName": "Chanel",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96714633-3620-447a-8bb5-19a8a7312938",
+        "email": "Haleigh26@roq.tech",
+        "firstName": "Greyson",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84133438",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "b3c62481-36c2-4624-bb05-a77ee94a1f5e",
+        "name": "Pain Relief Cream",
+        "description": "Topical cream for relieving muscle and joint pain",
+        "price": 11427,
+        "quantity": 80284,
+        "created_at": "2023-09-26T15:07:41.426Z",
+        "updated_at": "2023-09-26T14:21:46.374Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "d3319c3a-3e52-4c61-9df5-3ccc0303ab9b",
+        "name": "Multivitamin Tablets",
+        "description": "Daily multivitamin supplement for overall health",
+        "price": 8076,
+        "quantity": 14232,
+        "created_at": "2023-09-26T11:01:53.437Z",
+        "updated_at": "2023-09-26T21:33:19.524Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "1e3e9412-e1ed-45e5-a955-2f74f4f1ca9b",
+        "name": "Allergy Relief Syrup",
+        "description": "Liquid syrup for relieving allergy symptoms",
+        "price": 93209,
+        "quantity": 83753,
+        "created_at": "2023-09-26T16:05:40.529Z",
+        "updated_at": "2023-09-26T10:36:15.237Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "661d6385-ed1f-4549-8889-1a7c8a2c759e",
+        "name": "Cold and Flu Capsules",
+        "description": "Capsules for treating cold and flu symptoms",
+        "price": 54656,
+        "quantity": 15612,
+        "created_at": "2023-09-26T18:36:58.190Z",
+        "updated_at": "2023-09-26T10:08:58.854Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "fc489f2d-255c-444a-a498-cdc26587a07c",
+        "name": "Digestive Health Probiotics",
+        "description": "Probiotic supplement for improving digestive health",
+        "price": 71389,
+        "quantity": 74026,
+        "created_at": "2023-09-26T09:10:20.287Z",
+        "updated_at": "2023-09-26T15:12:01.421Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "b14929be-1761-4e8b-8ccf-1b68907b4463",
+        "total_price": 16440,
+        "status": "Pending",
+        "created_at": "2023-09-27T03:01:11.708Z",
+        "updated_at": "2023-09-26T13:07:08.940Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1f33918-cc53-4d32-a379-c625e98c7bbe",
+        "total_price": 44647,
+        "status": "Processing",
+        "created_at": "2023-09-26T11:39:08.284Z",
+        "updated_at": "2023-09-27T02:04:19.015Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73f5fd06-44b6-40a5-8bf8-eb56fcd5e304",
+        "total_price": 67386,
+        "status": "Shipped",
+        "created_at": "2023-09-26T09:07:09.395Z",
+        "updated_at": "2023-09-27T04:59:50.548Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbcef57f-6217-4776-b95a-9f8fb4e7293b",
+        "total_price": 58932,
+        "status": "Delivered",
+        "created_at": "2023-09-26T14:28:53.831Z",
+        "updated_at": "2023-09-26T22:39:14.263Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a29db9f3-7e22-4d39-9b14-9d60141e7089",
+        "total_price": 73411,
+        "status": "Cancelled",
+        "created_at": "2023-09-26T14:21:24.209Z",
+        "updated_at": "2023-09-26T18:28:22.786Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "18e3ea5b-a366-4387-ad5f-7522e1d3cba6",
+        "quantity": 21596,
+        "price": 92931,
+        "created_at": "2023-09-26T07:39:10.959Z",
+        "updated_at": "2023-09-26T12:52:25.579Z",
+        "order_id": "a1f33918-cc53-4d32-a379-c625e98c7bbe",
+        "product_id": "d3319c3a-3e52-4c61-9df5-3ccc0303ab9b"
+      },
+      {
+        "id": "a53ab38f-79ee-45ee-a326-a54692af7dcf",
+        "quantity": 51474,
+        "price": 73411,
+        "created_at": "2023-09-26T13:14:47.653Z",
+        "updated_at": "2023-09-26T09:25:48.213Z",
+        "order_id": "b14929be-1761-4e8b-8ccf-1b68907b4463",
+        "product_id": "fc489f2d-255c-444a-a498-cdc26587a07c"
+      },
+      {
+        "id": "946dfbc3-9605-4789-b3e9-43b1e4a8fcb7",
+        "quantity": 38822,
+        "price": 98804,
+        "created_at": "2023-09-26T15:05:50.489Z",
+        "updated_at": "2023-09-26T13:06:01.354Z",
+        "order_id": "dbcef57f-6217-4776-b95a-9f8fb4e7293b",
+        "product_id": "fc489f2d-255c-444a-a498-cdc26587a07c"
+      },
+      {
+        "id": "c677d4ff-e654-4368-8b3d-abee35cb8087",
+        "quantity": 2156,
+        "price": 79846,
+        "created_at": "2023-09-26T18:38:04.598Z",
+        "updated_at": "2023-09-26T21:27:30.300Z",
+        "order_id": "73f5fd06-44b6-40a5-8bf8-eb56fcd5e304",
+        "product_id": "b3c62481-36c2-4624-bb05-a77ee94a1f5e"
+      },
+      {
+        "id": "9a518784-01c2-4f2c-8499-2957f1901288",
+        "quantity": 76102,
+        "price": 73733,
+        "created_at": "2023-09-27T05:09:00.748Z",
+        "updated_at": "2023-09-26T16:25:33.008Z",
+        "order_id": "a29db9f3-7e22-4d39-9b14-9d60141e7089",
+        "product_id": "1e3e9412-e1ed-45e5-a955-2f74f4f1ca9b"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "95631869-d988-4b7e-bac3-94311ce2f2f9",
+        "quantity": 14244,
+        "created_at": "2023-09-26T19:09:32.846Z",
+        "updated_at": "2023-09-26T14:28:06.988Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "661d6385-ed1f-4549-8889-1a7c8a2c759e"
+      },
+      {
+        "id": "7f28f1de-a110-4cf4-bdc9-fa7c1ccc86ca",
+        "quantity": 13549,
+        "created_at": "2023-09-26T20:40:21.757Z",
+        "updated_at": "2023-09-26T07:04:48.826Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "1e3e9412-e1ed-45e5-a955-2f74f4f1ca9b"
+      },
+      {
+        "id": "0d72d175-252f-4750-9c6b-a7d707857574",
+        "quantity": 66144,
+        "created_at": "2023-09-26T18:55:46.164Z",
+        "updated_at": "2023-09-26T08:01:24.008Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "b3c62481-36c2-4624-bb05-a77ee94a1f5e"
+      },
+      {
+        "id": "c6687dff-c0f7-4181-91f6-bd4974ad48df",
+        "quantity": 79965,
+        "created_at": "2023-09-27T02:52:32.323Z",
+        "updated_at": "2023-09-26T23:18:55.479Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "fc489f2d-255c-444a-a498-cdc26587a07c"
+      },
+      {
+        "id": "c9891ed1-360f-4106-8480-9eed52bc3ffd",
+        "quantity": 71795,
+        "created_at": "2023-09-27T02:52:44.368Z",
+        "updated_at": "2023-09-27T05:41:34.526Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "661d6385-ed1f-4549-8889-1a7c8a2c759e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ba6242e7-d8e1-4068-b795-8d19860a6eb3",
+        "email": "Deanna.Huel@roq.tech",
+        "firstName": "Fiona",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/499.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f1e9870a-6c98-4549-ae9d-865ded8e292f",
+        "email": "Zola_Streich@roq.tech",
+        "firstName": "Blaze",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c50c6da5-d443-4894-a276-0deba7a628a7",
+        "email": "Audrey_Volkman11@roq.tech",
+        "firstName": "Ransom",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54126212",
+        "tenantId": null
+      },
+      {
+        "reference": "e3449840-da2b-4b0a-9877-98c56854dec6",
+        "email": "Pablo.Reichert98@roq.tech",
+        "firstName": "Jadyn",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b43b67fd-c7bb-4b0b-8e8c-7f22199683ac",
+        "email": "Mack5@roq.tech",
+        "firstName": "Trent",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "e1daa531-f4ff-4477-a4fa-2735ec693b98",
+        "name": "Pain Relief Cream",
+        "description": "Relieves muscle pain and inflammation",
+        "price": 19734,
+        "quantity": 60174,
+        "created_at": "2023-09-27T06:33:19.065Z",
+        "updated_at": "2023-09-26T09:35:11.196Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "02c5240e-4ff8-4d7b-a316-19542205d896",
+        "name": "Vitamin C Supplement",
+        "description": "Boosts immune system and supports overall health",
+        "price": 1184,
+        "quantity": 74263,
+        "created_at": "2023-09-26T14:24:35.191Z",
+        "updated_at": "2023-09-26T13:42:04.394Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "94484ad7-5a5a-49ad-9a04-e30b0afe28f7",
+        "name": "Allergy Relief Tablets",
+        "description": "Provides relief from allergy symptoms",
+        "price": 78270,
+        "quantity": 17046,
+        "created_at": "2023-09-26T14:17:34.389Z",
+        "updated_at": "2023-09-26T18:48:51.575Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "d1a29f16-5648-4850-a2f7-1ed11f496f75",
+        "name": "Cold and Flu Syrup",
+        "description": "Soothes cough and congestion",
+        "price": 80377,
+        "quantity": 24339,
+        "created_at": "2023-09-26T17:46:45.380Z",
+        "updated_at": "2023-09-26T22:29:54.493Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "c336373f-d95a-4bdd-ae12-2bc1d3ea183f",
+        "name": "Digestive Health Capsules",
+        "description": "Promotes healthy digestion",
+        "price": 58158,
+        "quantity": 6000,
+        "created_at": "2023-09-26T15:41:10.034Z",
+        "updated_at": "2023-09-26T17:47:32.469Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "62c682dd-0d01-41bb-9c3e-0b398e35243a",
+        "total_price": 20980,
+        "status": "Pending",
+        "created_at": "2023-09-27T02:07:36.629Z",
+        "updated_at": "2023-09-26T10:42:41.424Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "688ba380-d962-4b90-ac7b-f9173d989b8a",
+        "total_price": 93249,
+        "status": "Processing",
+        "created_at": "2023-09-26T10:59:01.350Z",
+        "updated_at": "2023-09-26T12:32:22.932Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea4b0f04-e85b-4c5a-b20b-57a5799ea0ce",
+        "total_price": 54709,
+        "status": "Shipped",
+        "created_at": "2023-09-27T05:22:02.098Z",
+        "updated_at": "2023-09-26T20:38:09.944Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d19d8389-d7e4-4288-8461-1e6fadd73f89",
+        "total_price": 70630,
+        "status": "Delivered",
+        "created_at": "2023-09-26T15:01:37.417Z",
+        "updated_at": "2023-09-26T12:52:42.402Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba143d6a-97b6-4855-a8e5-1abe6e223715",
+        "total_price": 95001,
+        "status": "Cancelled",
+        "created_at": "2023-09-26T22:33:03.864Z",
+        "updated_at": "2023-09-27T05:37:11.744Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "a0904382-5ffe-4dd6-809e-16a9eef572cb",
+        "quantity": 39900,
+        "price": 60817,
+        "created_at": "2023-09-26T12:01:25.933Z",
+        "updated_at": "2023-09-26T22:19:51.503Z",
+        "order_id": "d19d8389-d7e4-4288-8461-1e6fadd73f89",
+        "product_id": "94484ad7-5a5a-49ad-9a04-e30b0afe28f7"
+      },
+      {
+        "id": "a2b48a4a-fc72-4f4f-9356-af8bf26f5e3a",
+        "quantity": 67036,
+        "price": 41807,
+        "created_at": "2023-09-27T04:29:03.993Z",
+        "updated_at": "2023-09-27T05:11:19.225Z",
+        "order_id": "d19d8389-d7e4-4288-8461-1e6fadd73f89",
+        "product_id": "d1a29f16-5648-4850-a2f7-1ed11f496f75"
+      },
+      {
+        "id": "008a5793-73da-4888-af18-5a3013830cd6",
+        "quantity": 12236,
+        "price": 92516,
+        "created_at": "2023-09-26T21:02:39.770Z",
+        "updated_at": "2023-09-26T08:07:01.571Z",
+        "order_id": "62c682dd-0d01-41bb-9c3e-0b398e35243a",
+        "product_id": "94484ad7-5a5a-49ad-9a04-e30b0afe28f7"
+      },
+      {
+        "id": "ef7032d0-8259-4470-98a4-bea29509f0d4",
+        "quantity": 47280,
+        "price": 72831,
+        "created_at": "2023-09-27T00:43:05.527Z",
+        "updated_at": "2023-09-26T18:01:03.108Z",
+        "order_id": "62c682dd-0d01-41bb-9c3e-0b398e35243a",
+        "product_id": "94484ad7-5a5a-49ad-9a04-e30b0afe28f7"
+      },
+      {
+        "id": "2b1e412a-7ff5-440f-9ca3-80dd9f9b5bd0",
+        "quantity": 97175,
+        "price": 36459,
+        "created_at": "2023-09-26T23:36:04.947Z",
+        "updated_at": "2023-09-26T12:15:14.515Z",
+        "order_id": "ba143d6a-97b6-4855-a8e5-1abe6e223715",
+        "product_id": "d1a29f16-5648-4850-a2f7-1ed11f496f75"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "099bce8c-8d01-4df1-b439-008be76ea2ee",
+        "quantity": 57350,
+        "created_at": "2023-09-26T22:11:31.251Z",
+        "updated_at": "2023-09-26T08:55:50.889Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "e1daa531-f4ff-4477-a4fa-2735ec693b98"
+      },
+      {
+        "id": "c300dc8a-4113-48b4-9e95-5cf00643832c",
+        "quantity": 40940,
+        "created_at": "2023-09-26T08:02:12.900Z",
+        "updated_at": "2023-09-27T01:11:30.885Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "02c5240e-4ff8-4d7b-a316-19542205d896"
+      },
+      {
+        "id": "0214c1a7-703d-4648-aa2e-e8d19d23d978",
+        "quantity": 87096,
+        "created_at": "2023-09-27T00:40:49.341Z",
+        "updated_at": "2023-09-26T17:01:37.956Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "c336373f-d95a-4bdd-ae12-2bc1d3ea183f"
+      },
+      {
+        "id": "964556b7-f215-4873-9c5a-67fc055d1135",
+        "quantity": 98229,
+        "created_at": "2023-09-27T01:18:24.347Z",
+        "updated_at": "2023-09-26T23:33:02.282Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "94484ad7-5a5a-49ad-9a04-e30b0afe28f7"
+      },
+      {
+        "id": "bcbdb150-f017-45a4-b44f-be612c611748",
+        "quantity": 36459,
+        "created_at": "2023-09-26T11:48:22.157Z",
+        "updated_at": "2023-09-26T21:18:49.867Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "e1daa531-f4ff-4477-a4fa-2735ec693b98"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "37442b42-50e7-4f47-bfbe-73e5eba3b960",
+        "email": "Conrad_Bins@roq.tech",
+        "firstName": "Ethelyn",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52683384",
+        "tenantId": null
+      },
+      {
+        "reference": "d3ecd5f9-c28a-4236-a5b3-a82ac32154ac",
+        "email": "Sunny.Quitzon@roq.tech",
+        "firstName": "Nicklaus",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d20283c-69a8-4962-9329-76481ce869a2",
+        "email": "Kailee80@roq.tech",
+        "firstName": "Camden",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cef76724-eca2-4ecf-81bc-049399a6326d",
+        "email": "Wiley.Kiehn@roq.tech",
+        "firstName": "Earlene",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49694283",
+        "tenantId": null
+      },
+      {
+        "reference": "776201c6-7db0-4bae-a291-3840a19fbac1",
+        "email": "Brandyn_Stanton56@roq.tech",
+        "firstName": "Willow",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/599.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "ff20d9d3-032c-4934-a989-45372f3a0081",
+        "name": "Pain Relief Cream",
+        "description": "Topical cream for relieving muscle and joint pain",
+        "price": 95073,
+        "quantity": 16993,
+        "created_at": "2023-09-27T06:45:00.017Z",
+        "updated_at": "2023-09-27T03:06:08.098Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "7f5d833d-ce02-473e-8fd5-5059f0e9f533",
+        "name": "Multivitamin Tablets",
+        "description": "Daily supplement for overall health and wellness",
+        "price": 35704,
+        "quantity": 81093,
+        "created_at": "2023-09-26T18:07:43.816Z",
+        "updated_at": "2023-09-27T03:50:51.325Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "67d8e4c4-9b53-433b-9c94-3388539529a6",
+        "name": "Allergy Relief Syrup",
+        "description": "Syrup for relieving allergy symptoms",
+        "price": 1215,
+        "quantity": 12321,
+        "created_at": "2023-09-26T13:15:07.773Z",
+        "updated_at": "2023-09-26T15:23:02.040Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "2c16a56a-1c49-44e3-831c-be8f7500f126",
+        "name": "Cold and Flu Capsules",
+        "description": "Capsules for treating cold and flu symptoms",
+        "price": 46554,
+        "quantity": 97195,
+        "created_at": "2023-09-26T15:25:52.048Z",
+        "updated_at": "2023-09-27T00:23:07.305Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "44a449f0-8526-4991-aef9-ef48a30d455f",
+        "name": "Antibacterial Hand Sanitizer",
+        "description": "Hand sanitizer for killing germs and bacteria",
+        "price": 75312,
+        "quantity": 16922,
+        "created_at": "2023-09-26T07:06:31.854Z",
+        "updated_at": "2023-09-26T19:08:04.858Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "d6be30f8-ccf2-4eda-8685-45a0871d8b05",
+        "total_price": 21172,
+        "status": "Pending",
+        "created_at": "2023-09-26T07:36:13.613Z",
+        "updated_at": "2023-09-26T10:45:09.452Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db354ed2-161c-48f5-94f5-43d79b2fda03",
+        "total_price": 21343,
+        "status": "Processing",
+        "created_at": "2023-09-27T00:51:50.391Z",
+        "updated_at": "2023-09-27T00:02:49.682Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ddaf0d4-e029-444d-a9bb-585d9e7a5cf9",
+        "total_price": 69771,
+        "status": "Shipped",
+        "created_at": "2023-09-26T13:17:09.202Z",
+        "updated_at": "2023-09-26T23:03:52.939Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e5fc4d-d04e-4e27-bd50-12d20b6b0b50",
+        "total_price": 19808,
+        "status": "Delivered",
+        "created_at": "2023-09-27T04:02:43.920Z",
+        "updated_at": "2023-09-27T03:33:03.612Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66b8b9b7-bed4-4427-bcda-8f8e536025cd",
+        "total_price": 79252,
+        "status": "Cancelled",
+        "created_at": "2023-09-26T12:10:59.653Z",
+        "updated_at": "2023-09-26T17:58:50.705Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "7048c92d-4f09-4641-8b8f-303c3def915a",
+        "quantity": 37468,
+        "price": 74025,
+        "created_at": "2023-09-27T06:06:51.121Z",
+        "updated_at": "2023-09-26T09:27:19.110Z",
+        "order_id": "66b8b9b7-bed4-4427-bcda-8f8e536025cd",
+        "product_id": "ff20d9d3-032c-4934-a989-45372f3a0081"
+      },
+      {
+        "id": "52e6e7ae-f04a-42c0-ab44-cf1d2f37ff6b",
+        "quantity": 70283,
+        "price": 68819,
+        "created_at": "2023-09-26T11:39:11.234Z",
+        "updated_at": "2023-09-26T12:16:08.312Z",
+        "order_id": "d6be30f8-ccf2-4eda-8685-45a0871d8b05",
+        "product_id": "67d8e4c4-9b53-433b-9c94-3388539529a6"
+      },
+      {
+        "id": "cfb622e0-5477-43c2-88c8-916b92b32118",
+        "quantity": 78357,
+        "price": 32074,
+        "created_at": "2023-09-26T20:27:25.834Z",
+        "updated_at": "2023-09-26T20:21:18.906Z",
+        "order_id": "db354ed2-161c-48f5-94f5-43d79b2fda03",
+        "product_id": "ff20d9d3-032c-4934-a989-45372f3a0081"
+      },
+      {
+        "id": "ee613348-5acd-472d-ad5a-22abed8a56e4",
+        "quantity": 49218,
+        "price": 84987,
+        "created_at": "2023-09-26T12:11:03.554Z",
+        "updated_at": "2023-09-26T23:48:01.580Z",
+        "order_id": "f3e5fc4d-d04e-4e27-bd50-12d20b6b0b50",
+        "product_id": "2c16a56a-1c49-44e3-831c-be8f7500f126"
+      },
+      {
+        "id": "483dea8d-06bb-4930-8f51-5dc9f3676c3c",
+        "quantity": 45825,
+        "price": 52298,
+        "created_at": "2023-09-26T07:04:17.968Z",
+        "updated_at": "2023-09-27T03:06:30.025Z",
+        "order_id": "f3e5fc4d-d04e-4e27-bd50-12d20b6b0b50",
+        "product_id": "ff20d9d3-032c-4934-a989-45372f3a0081"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "aa984f53-7d1a-4918-aa58-0f32f5cab63a",
+        "quantity": 4131,
+        "created_at": "2023-09-26T22:27:30.195Z",
+        "updated_at": "2023-09-26T15:47:11.354Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "44a449f0-8526-4991-aef9-ef48a30d455f"
+      },
+      {
+        "id": "a925d6fc-b9d5-434f-9842-b410ae31d5a8",
+        "quantity": 1751,
+        "created_at": "2023-09-26T11:40:20.842Z",
+        "updated_at": "2023-09-26T13:30:51.294Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "44a449f0-8526-4991-aef9-ef48a30d455f"
+      },
+      {
+        "id": "ffdcc3a5-6bed-43a5-a792-7f6553022319",
+        "quantity": 72005,
+        "created_at": "2023-09-26T12:07:05.308Z",
+        "updated_at": "2023-09-26T06:51:18.985Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "67d8e4c4-9b53-433b-9c94-3388539529a6"
+      },
+      {
+        "id": "90061096-5690-43ea-81f4-f97d25528109",
+        "quantity": 21222,
+        "created_at": "2023-09-26T23:32:02.423Z",
+        "updated_at": "2023-09-26T18:54:04.662Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "ff20d9d3-032c-4934-a989-45372f3a0081"
+      },
+      {
+        "id": "6057a661-3635-490e-85cb-4cd7595ef69a",
+        "quantity": 82558,
+        "created_at": "2023-09-26T22:27:10.052Z",
+        "updated_at": "2023-09-26T18:25:23.243Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "44a449f0-8526-4991-aef9-ef48a30d455f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dcba2eff-e0f5-4896-bdf2-0777bb8cd025",
+        "email": "Tess_Lang52@roq.tech",
+        "firstName": "Darrin",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58653487",
+        "tenantId": null
+      },
+      {
+        "reference": "c52ce40a-9320-4791-943a-030125d52473",
+        "email": "Adelle_Reilly@roq.tech",
+        "firstName": "Gerda",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/754.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb81607a-81e0-4872-9ec1-66a660379e70",
+        "email": "Russell_Hayes@roq.tech",
+        "firstName": "Pansy",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/738213",
+        "tenantId": null
+      },
+      {
+        "reference": "c7b27711-40fa-4062-8d49-29d2eed24e5d",
+        "email": "Hunter_Satterfield@roq.tech",
+        "firstName": "Dorcas",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1152.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "786b9cd0-ad95-4319-9781-0ade8fb5abb6",
+        "email": "Tony.Jones85@roq.tech",
+        "firstName": "Liliane",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17307860",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "04b016f6-cb5a-4e91-9511-19fea8b62216",
+        "name": "PainAway",
+        "description": "Relieves pain and discomfort",
+        "price": 28183,
+        "quantity": 76286,
+        "created_at": "2023-09-26T22:42:03.782Z",
+        "updated_at": "2023-09-27T02:21:05.954Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "8fedcf74-930e-4469-81f4-90249686de9b",
+        "name": "Revitalize",
+        "description": "Restores energy and vitality",
+        "price": 72933,
+        "quantity": 83276,
+        "created_at": "2023-09-26T23:22:39.210Z",
+        "updated_at": "2023-09-26T22:34:08.186Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "850bea0e-d71b-4b71-a72f-1c66117c8e7d",
+        "name": "Glowing Skin",
+        "description": "Promotes healthy and radiant skin",
+        "price": 17904,
+        "quantity": 14514,
+        "created_at": "2023-09-27T06:14:32.394Z",
+        "updated_at": "2023-09-26T14:26:18.212Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "c7ad997b-1ca0-4168-a93b-6fa9dac4e834",
+        "name": "SleepWell",
+        "description": "Enhances quality of sleep",
+        "price": 31403,
+        "quantity": 14443,
+        "created_at": "2023-09-26T11:21:38.511Z",
+        "updated_at": "2023-09-26T14:47:35.131Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "f4d6a75c-e996-409d-9a8d-4cf2aa917804",
+        "name": "ImmuneBoost",
+        "description": "Strengthens the immune system",
+        "price": 70410,
+        "quantity": 82258,
+        "created_at": "2023-09-26T19:35:44.699Z",
+        "updated_at": "2023-09-27T04:56:08.341Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "96d7822c-2a80-4543-8bc3-5ef2b0a1a1d9",
+        "total_price": 12093,
+        "status": "Pending",
+        "created_at": "2023-09-27T01:44:23.335Z",
+        "updated_at": "2023-09-26T18:34:26.152Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a103674-bfc3-44b3-995d-dcf2d64a0f38",
+        "total_price": 19796,
+        "status": "Processing",
+        "created_at": "2023-09-26T13:35:54.524Z",
+        "updated_at": "2023-09-26T18:32:05.957Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c26dd2be-7540-431f-af21-0737ffb7e2cc",
+        "total_price": 48336,
+        "status": "Shipped",
+        "created_at": "2023-09-26T23:11:55.763Z",
+        "updated_at": "2023-09-26T08:22:01.426Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96bd3f94-ae0a-4264-bada-5d2d02a0a31f",
+        "total_price": 11390,
+        "status": "Delivered",
+        "created_at": "2023-09-26T18:45:16.188Z",
+        "updated_at": "2023-09-26T16:41:52.452Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2a17292-552d-4a18-a0f1-096157e7ce77",
+        "total_price": 7076,
+        "status": "Cancelled",
+        "created_at": "2023-09-27T03:05:18.500Z",
+        "updated_at": "2023-09-27T04:28:36.403Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "3f07b5bc-0189-4b01-a196-02e31700a2fb",
+        "quantity": 79196,
+        "price": 50621,
+        "created_at": "2023-09-26T21:18:33.530Z",
+        "updated_at": "2023-09-26T22:08:32.453Z",
+        "order_id": "5a103674-bfc3-44b3-995d-dcf2d64a0f38",
+        "product_id": "c7ad997b-1ca0-4168-a93b-6fa9dac4e834"
+      },
+      {
+        "id": "8a6ab18d-549d-457b-ada0-08ecac006a4a",
+        "quantity": 71282,
+        "price": 93153,
+        "created_at": "2023-09-26T17:24:22.025Z",
+        "updated_at": "2023-09-27T05:28:39.768Z",
+        "order_id": "c26dd2be-7540-431f-af21-0737ffb7e2cc",
+        "product_id": "f4d6a75c-e996-409d-9a8d-4cf2aa917804"
+      },
+      {
+        "id": "74c5c478-f63f-4a47-a5ed-4632d4933766",
+        "quantity": 22256,
+        "price": 46550,
+        "created_at": "2023-09-27T04:25:41.655Z",
+        "updated_at": "2023-09-26T22:21:52.800Z",
+        "order_id": "5a103674-bfc3-44b3-995d-dcf2d64a0f38",
+        "product_id": "c7ad997b-1ca0-4168-a93b-6fa9dac4e834"
+      },
+      {
+        "id": "500315ac-32ca-45a4-a786-d2651313fa2d",
+        "quantity": 35725,
+        "price": 84608,
+        "created_at": "2023-09-26T11:12:24.409Z",
+        "updated_at": "2023-09-26T22:11:21.677Z",
+        "order_id": "c26dd2be-7540-431f-af21-0737ffb7e2cc",
+        "product_id": "04b016f6-cb5a-4e91-9511-19fea8b62216"
+      },
+      {
+        "id": "fd64cd3c-d879-4414-a88d-26a3ed9a4536",
+        "quantity": 27672,
+        "price": 65181,
+        "created_at": "2023-09-26T20:08:38.302Z",
+        "updated_at": "2023-09-26T09:54:24.454Z",
+        "order_id": "c26dd2be-7540-431f-af21-0737ffb7e2cc",
+        "product_id": "8fedcf74-930e-4469-81f4-90249686de9b"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "8ebde1c1-b246-462f-a91c-84f7db17f55b",
+        "quantity": 60728,
+        "created_at": "2023-09-26T11:02:07.338Z",
+        "updated_at": "2023-09-26T13:38:50.652Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "850bea0e-d71b-4b71-a72f-1c66117c8e7d"
+      },
+      {
+        "id": "2e90ca75-15e5-42ef-9c48-409aa3937d10",
+        "quantity": 10644,
+        "created_at": "2023-09-26T18:16:19.819Z",
+        "updated_at": "2023-09-26T09:07:42.213Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "c7ad997b-1ca0-4168-a93b-6fa9dac4e834"
+      },
+      {
+        "id": "f370ae35-ab85-44ce-80cc-666cecdb0060",
+        "quantity": 89293,
+        "created_at": "2023-09-26T23:20:09.859Z",
+        "updated_at": "2023-09-26T08:39:45.996Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "c7ad997b-1ca0-4168-a93b-6fa9dac4e834"
+      },
+      {
+        "id": "9e7498d2-d838-4412-ad55-525748a49a19",
+        "quantity": 12050,
+        "created_at": "2023-09-27T00:44:21.369Z",
+        "updated_at": "2023-09-26T17:01:12.649Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "04b016f6-cb5a-4e91-9511-19fea8b62216"
+      },
+      {
+        "id": "8442cdb0-62d0-43c8-9bd7-88556b1851c5",
+        "quantity": 49246,
+        "created_at": "2023-09-26T09:16:02.505Z",
+        "updated_at": "2023-09-26T10:09:31.994Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "04b016f6-cb5a-4e91-9511-19fea8b62216"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1d544800-2214-4c04-8cb1-ddb4ff0a14bb",
+        "email": "Tianna.Stanton58@roq.tech",
+        "firstName": "Keenan",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8899505-2503-4bc5-8b8b-41cae1f19cf1",
+        "email": "Daija78@roq.tech",
+        "firstName": "Jodie",
+        "lastName": "Sporer-Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "862856dd-1aec-43c8-a27c-f324804b9e8e",
+        "email": "Lauretta.Ward29@roq.tech",
+        "firstName": "Gregorio",
+        "lastName": "Marks-Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/878.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "705f8ad7-4808-4a91-b8d8-a1213a7c7fad",
+        "email": "Aurelio.Larkin@roq.tech",
+        "firstName": "Pamela",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93187273",
+        "tenantId": null
+      },
+      {
+        "reference": "782f6d33-7472-437a-a1ef-528bfc277ccf",
+        "email": "Shyanne.Pollich1@roq.tech",
+        "firstName": "Margarita",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "af1160d4-31f6-4e2f-b97a-e2d2967bfb83",
+        "name": "Pain Relief Cream",
+        "description": "Relieves pain and inflammation",
+        "price": 55322,
+        "quantity": 94635,
+        "created_at": "2023-09-27T05:29:17.987Z",
+        "updated_at": "2023-09-26T10:02:52.938Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "f76167f7-3b49-4108-909f-dec60c45c2dc",
+        "name": "Vitamin C Supplement",
+        "description": "Boosts immune system",
+        "price": 42644,
+        "quantity": 98140,
+        "created_at": "2023-09-26T09:48:55.439Z",
+        "updated_at": "2023-09-27T04:44:00.428Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "27813abf-16c6-4b22-bb9f-b54d8961fe71",
+        "name": "Allergy Relief Tablets",
+        "description": "Provides relief from allergies",
+        "price": 17858,
+        "quantity": 28104,
+        "created_at": "2023-09-26T21:37:20.348Z",
+        "updated_at": "2023-09-27T01:42:40.196Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "42e48829-53ef-42c1-a4e8-025ec4d89436",
+        "name": "Cold and Flu Medicine",
+        "description": "Relieves symptoms of cold and flu",
+        "price": 85301,
+        "quantity": 94561,
+        "created_at": "2023-09-26T16:56:24.224Z",
+        "updated_at": "2023-09-26T15:03:38.148Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "e240b966-3b24-4f80-818e-e8d29dbce68a",
+        "name": "Antibacterial Hand Sanitizer",
+        "description": "Kills germs and bacteria",
+        "price": 95293,
+        "quantity": 70598,
+        "created_at": "2023-09-26T20:10:31.455Z",
+        "updated_at": "2023-09-26T14:18:45.493Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "d51aa050-913f-41d2-a791-83796f9a3ed8",
+        "total_price": 58590,
+        "status": "Pending",
+        "created_at": "2023-09-26T14:48:15.220Z",
+        "updated_at": "2023-09-26T15:10:15.001Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6393beb-45bc-4057-9802-cd349ab06f5f",
+        "total_price": 35846,
+        "status": "Processing",
+        "created_at": "2023-09-26T20:18:43.048Z",
+        "updated_at": "2023-09-27T03:24:30.373Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7727bac4-f29e-4f34-ad66-da7f62f8a415",
+        "total_price": 34662,
+        "status": "Shipped",
+        "created_at": "2023-09-27T04:57:05.899Z",
+        "updated_at": "2023-09-26T13:43:11.033Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b995bf0-d87c-492a-acb2-3e395a38df05",
+        "total_price": 62417,
+        "status": "Delivered",
+        "created_at": "2023-09-26T12:13:23.170Z",
+        "updated_at": "2023-09-26T16:18:42.894Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be0a9197-72aa-4b47-a2ec-1b67f77c29b0",
+        "total_price": 38623,
+        "status": "Cancelled",
+        "created_at": "2023-09-26T23:43:37.734Z",
+        "updated_at": "2023-09-26T11:31:20.274Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "4aa8df45-3733-492d-9033-22d9fbd7c7a9",
+        "quantity": 86178,
+        "price": 43961,
+        "created_at": "2023-09-26T06:57:17.066Z",
+        "updated_at": "2023-09-26T10:35:12.994Z",
+        "order_id": "be0a9197-72aa-4b47-a2ec-1b67f77c29b0",
+        "product_id": "e240b966-3b24-4f80-818e-e8d29dbce68a"
+      },
+      {
+        "id": "993a0454-9157-4b11-aaac-5068dd3f7860",
+        "quantity": 11290,
+        "price": 59710,
+        "created_at": "2023-09-27T02:09:07.098Z",
+        "updated_at": "2023-09-26T18:57:35.940Z",
+        "order_id": "7727bac4-f29e-4f34-ad66-da7f62f8a415",
+        "product_id": "f76167f7-3b49-4108-909f-dec60c45c2dc"
+      },
+      {
+        "id": "5fcfafc4-cbe7-46e6-a11f-9be6c981c02e",
+        "quantity": 10574,
+        "price": 10993,
+        "created_at": "2023-09-26T09:24:55.505Z",
+        "updated_at": "2023-09-26T18:06:10.035Z",
+        "order_id": "5b995bf0-d87c-492a-acb2-3e395a38df05",
+        "product_id": "f76167f7-3b49-4108-909f-dec60c45c2dc"
+      },
+      {
+        "id": "3553648b-b603-4aab-a49e-193f09d6a6da",
+        "quantity": 14694,
+        "price": 61333,
+        "created_at": "2023-09-27T02:38:10.996Z",
+        "updated_at": "2023-09-26T13:43:55.818Z",
+        "order_id": "f6393beb-45bc-4057-9802-cd349ab06f5f",
+        "product_id": "af1160d4-31f6-4e2f-b97a-e2d2967bfb83"
+      },
+      {
+        "id": "173a726e-83d7-4f6e-bb13-2c6db09454bc",
+        "quantity": 79828,
+        "price": 50618,
+        "created_at": "2023-09-26T21:24:30.806Z",
+        "updated_at": "2023-09-27T04:35:53.959Z",
+        "order_id": "7727bac4-f29e-4f34-ad66-da7f62f8a415",
+        "product_id": "e240b966-3b24-4f80-818e-e8d29dbce68a"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "5f343736-7ef9-473e-828a-a3552479cced",
+        "quantity": 59647,
+        "created_at": "2023-09-26T10:59:40.998Z",
+        "updated_at": "2023-09-27T04:16:27.560Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "42e48829-53ef-42c1-a4e8-025ec4d89436"
+      },
+      {
+        "id": "95124455-6a6e-4a99-98ed-53a11a043282",
+        "quantity": 10480,
+        "created_at": "2023-09-26T13:34:09.386Z",
+        "updated_at": "2023-09-27T04:22:01.071Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "27813abf-16c6-4b22-bb9f-b54d8961fe71"
+      },
+      {
+        "id": "2fb4e999-4b68-45ec-91a1-5d7f1dc4ebd8",
+        "quantity": 38831,
+        "created_at": "2023-09-26T19:08:11.617Z",
+        "updated_at": "2023-09-26T09:14:11.879Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "f76167f7-3b49-4108-909f-dec60c45c2dc"
+      },
+      {
+        "id": "1f834d65-a66a-4bf7-b5a5-33425af34d54",
+        "quantity": 64277,
+        "created_at": "2023-09-26T19:07:49.662Z",
+        "updated_at": "2023-09-26T10:20:20.090Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "42e48829-53ef-42c1-a4e8-025ec4d89436"
+      },
+      {
+        "id": "185c67ea-2318-4ff0-9989-7be6fffc2d7d",
+        "quantity": 1907,
+        "created_at": "2023-09-26T17:09:17.875Z",
+        "updated_at": "2023-09-27T04:31:33.592Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "e240b966-3b24-4f80-818e-e8d29dbce68a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "767b7126-f45c-4cde-83ae-6b1336d16df1",
+        "email": "Forrest41@roq.tech",
+        "firstName": "Olga",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1170.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47f29abd-7178-4b84-b583-826e095709e2",
+        "email": "Thurman.Brakus35@roq.tech",
+        "firstName": "Francisco",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9241194",
+        "tenantId": null
+      },
+      {
+        "reference": "a5ba08bb-ff45-46ea-b102-fd596f849325",
+        "email": "Chesley88@roq.tech",
+        "firstName": "Harley",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16839849",
+        "tenantId": null
+      },
+      {
+        "reference": "f0850cbb-fcb4-45f1-b84d-526677910b02",
+        "email": "Marlee84@roq.tech",
+        "firstName": "Eleanora",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/82.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9a0a6e4-f14e-442f-8229-4541ffd5543a",
+        "email": "Coleman.Flatley74@roq.tech",
+        "firstName": "Gage",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23482418",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "c4b1913b-7f7e-4981-acad-394afdab4d9b",
+        "name": "Toothpaste",
+        "description": "Freshens breath and prevents cavities",
+        "price": 33448,
+        "quantity": 73992,
+        "created_at": "2023-09-26T18:57:14.555Z",
+        "updated_at": "2023-09-26T16:14:23.629Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "0dc676e2-23fc-4a48-beec-38747a472a01",
+        "name": "Shampoo",
+        "description": "Cleans and nourishes hair",
+        "price": 59898,
+        "quantity": 8856,
+        "created_at": "2023-09-27T01:35:24.269Z",
+        "updated_at": "2023-09-26T15:01:28.869Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "64e18071-d311-4058-a446-dad4a002cff8",
+        "name": "Soap",
+        "description": "Gentle on the skin and moisturizing",
+        "price": 92479,
+        "quantity": 72838,
+        "created_at": "2023-09-26T21:23:37.467Z",
+        "updated_at": "2023-09-26T08:17:11.993Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "67b9690f-44cd-4840-87a7-aa43ad55c254",
+        "name": "Hand Sanitizer",
+        "description": "Kills germs and keeps hands clean",
+        "price": 52148,
+        "quantity": 75886,
+        "created_at": "2023-09-26T22:49:57.065Z",
+        "updated_at": "2023-09-27T01:02:47.239Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "879530b4-6af2-4ef4-9c81-c0c11565de9b",
+        "name": "Sunscreen",
+        "description": "Protects against harmful UV rays",
+        "price": 39098,
+        "quantity": 73113,
+        "created_at": "2023-09-27T05:43:21.024Z",
+        "updated_at": "2023-09-27T01:19:16.761Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "b2c6f4c9-1edb-4499-83cb-a05b5d718e66",
+        "total_price": 17087,
+        "status": "Pending",
+        "created_at": "2023-09-26T12:57:38.291Z",
+        "updated_at": "2023-09-27T01:28:10.026Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "734c7466-d26c-4c9e-8ced-44f6ff27b988",
+        "total_price": 62015,
+        "status": "Processing",
+        "created_at": "2023-09-26T12:46:45.494Z",
+        "updated_at": "2023-09-26T13:04:57.870Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c821b3d0-eae7-4aa1-96b4-69bd466f6e21",
+        "total_price": 36013,
+        "status": "Shipped",
+        "created_at": "2023-09-26T22:17:09.786Z",
+        "updated_at": "2023-09-26T22:13:23.741Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c623f47-33a0-4967-96e4-ad7b4ba8b651",
+        "total_price": 26692,
+        "status": "Delivered",
+        "created_at": "2023-09-26T21:27:29.049Z",
+        "updated_at": "2023-09-26T16:34:35.257Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecf5a779-185a-4c08-85eb-16b90de70319",
+        "total_price": 90344,
+        "status": "Cancelled",
+        "created_at": "2023-09-27T06:14:08.210Z",
+        "updated_at": "2023-09-27T03:21:03.602Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "e7d7788c-bb54-4a04-be69-518d21fe157a",
+        "quantity": 97828,
+        "price": 53605,
+        "created_at": "2023-09-26T14:04:32.199Z",
+        "updated_at": "2023-09-26T23:55:40.027Z",
+        "order_id": "ecf5a779-185a-4c08-85eb-16b90de70319",
+        "product_id": "c4b1913b-7f7e-4981-acad-394afdab4d9b"
+      },
+      {
+        "id": "7ddfb57e-a583-4eaf-acd2-335695d4dc34",
+        "quantity": 78658,
+        "price": 77553,
+        "created_at": "2023-09-26T15:25:21.378Z",
+        "updated_at": "2023-09-26T07:55:41.646Z",
+        "order_id": "b2c6f4c9-1edb-4499-83cb-a05b5d718e66",
+        "product_id": "c4b1913b-7f7e-4981-acad-394afdab4d9b"
+      },
+      {
+        "id": "66282a7e-1f72-4e48-8ec7-f31136a3d892",
+        "quantity": 20088,
+        "price": 95636,
+        "created_at": "2023-09-26T21:06:13.332Z",
+        "updated_at": "2023-09-26T19:53:52.167Z",
+        "order_id": "734c7466-d26c-4c9e-8ced-44f6ff27b988",
+        "product_id": "879530b4-6af2-4ef4-9c81-c0c11565de9b"
+      },
+      {
+        "id": "b980ff5a-7d2b-4374-bd1e-998013470316",
+        "quantity": 64799,
+        "price": 48908,
+        "created_at": "2023-09-27T06:13:58.503Z",
+        "updated_at": "2023-09-26T21:30:21.975Z",
+        "order_id": "b2c6f4c9-1edb-4499-83cb-a05b5d718e66",
+        "product_id": "64e18071-d311-4058-a446-dad4a002cff8"
+      },
+      {
+        "id": "40be6e80-179b-420f-987d-758392b91edf",
+        "quantity": 53535,
+        "price": 45786,
+        "created_at": "2023-09-27T04:58:35.105Z",
+        "updated_at": "2023-09-27T04:57:54.354Z",
+        "order_id": "c821b3d0-eae7-4aa1-96b4-69bd466f6e21",
+        "product_id": "67b9690f-44cd-4840-87a7-aa43ad55c254"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "52ef0a71-2ee5-4eac-9433-2c4a8a899d08",
+        "quantity": 85207,
+        "created_at": "2023-09-26T08:27:46.074Z",
+        "updated_at": "2023-09-27T00:52:27.893Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "879530b4-6af2-4ef4-9c81-c0c11565de9b"
+      },
+      {
+        "id": "da62936b-768a-4155-98ae-dbbc926cd24a",
+        "quantity": 1897,
+        "created_at": "2023-09-26T10:06:08.406Z",
+        "updated_at": "2023-09-26T17:40:30.045Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "c4b1913b-7f7e-4981-acad-394afdab4d9b"
+      },
+      {
+        "id": "052972b1-34f3-4df0-9504-8dd9f022a64d",
+        "quantity": 81267,
+        "created_at": "2023-09-26T14:48:56.919Z",
+        "updated_at": "2023-09-26T11:30:00.676Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "67b9690f-44cd-4840-87a7-aa43ad55c254"
+      },
+      {
+        "id": "9ac7f6d6-abc6-4b82-810a-9ce5f8ea3e1b",
+        "quantity": 52754,
+        "created_at": "2023-09-26T16:09:33.215Z",
+        "updated_at": "2023-09-27T02:01:31.152Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "64e18071-d311-4058-a446-dad4a002cff8"
+      },
+      {
+        "id": "91133016-d09c-42d7-bd69-553db1cdd767",
+        "quantity": 82135,
+        "created_at": "2023-09-26T08:27:48.182Z",
+        "updated_at": "2023-09-26T09:03:15.389Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "0dc676e2-23fc-4a48-beec-38747a472a01"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "728c2362-d935-4276-ab4a-cb70ef158326",
+        "email": "Daisha.Miller-Ankunding@roq.tech",
+        "firstName": "Fatima",
+        "lastName": "McCullough-D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62939264",
+        "tenantId": null
+      },
+      {
+        "reference": "1c43c674-7766-43b6-a02d-ab365c23d20e",
+        "email": "Veda_Jacobi74@roq.tech",
+        "firstName": "Allie",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25373290",
+        "tenantId": null
+      },
+      {
+        "reference": "6b1f7a9d-16d9-4b8a-9810-df54eb61a125",
+        "email": "Berry52@roq.tech",
+        "firstName": "Alessandro",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1153.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "73d1a258-c239-4b4d-991b-9339dcc0014e",
+        "email": "Guadalupe78@roq.tech",
+        "firstName": "Jocelyn",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a3900b5-9598-4891-aee3-4d46f47c9762",
+        "email": "Consuelo_Ankunding6@roq.tech",
+        "firstName": "Brain",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14909483",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "8b651209-721e-4657-b55c-a8bac4991289",
+        "name": "Pain Relief Cream",
+        "description": "Fast-acting cream for relieving muscle and joint pain",
+        "price": 20762,
+        "quantity": 60432,
+        "created_at": "2023-09-26T09:03:04.544Z",
+        "updated_at": "2023-09-26T23:39:55.659Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "2b2c3928-a869-4915-8849-8947af3d08bc",
+        "name": "Cold and Flu Tablets",
+        "description": "Effective tablets for treating cold and flu symptoms",
+        "price": 27429,
+        "quantity": 83999,
+        "created_at": "2023-09-26T07:46:05.487Z",
+        "updated_at": "2023-09-27T00:19:40.703Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "6441dc95-47fb-48bf-bcbb-c0cc69cb78e2",
+        "name": "Allergy Relief Medicine",
+        "description": "Non-drowsy medicine for allergy relief",
+        "price": 80655,
+        "quantity": 7950,
+        "created_at": "2023-09-26T18:50:03.786Z",
+        "updated_at": "2023-09-26T07:59:23.435Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "9c499212-5e16-4020-9408-97d75de69a30",
+        "name": "Vitamin C Supplements",
+        "description": "High-quality supplements to boost immune system",
+        "price": 71353,
+        "quantity": 46288,
+        "created_at": "2023-09-26T18:01:58.615Z",
+        "updated_at": "2023-09-26T15:33:48.533Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "3020d097-630f-4d43-8ce5-6f2baff49c44",
+        "name": "Digestive Health Capsules",
+        "description": "Natural capsules for promoting digestive health",
+        "price": 13090,
+        "quantity": 32449,
+        "created_at": "2023-09-26T21:11:24.365Z",
+        "updated_at": "2023-09-26T16:18:56.401Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "159b4ce5-2378-41c3-a4ab-98cc9c3ed52c",
+        "total_price": 29683,
+        "status": "Pending",
+        "created_at": "2023-09-26T15:18:30.155Z",
+        "updated_at": "2023-09-26T10:00:03.070Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b8b45b7-b33a-4957-a735-b0981a51b358",
+        "total_price": 10681,
+        "status": "Processing",
+        "created_at": "2023-09-26T21:09:27.432Z",
+        "updated_at": "2023-09-26T22:22:14.612Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3d0a9c2-b49b-425c-9ad7-0224eeec3999",
+        "total_price": 65351,
+        "status": "Shipped",
+        "created_at": "2023-09-26T09:59:37.026Z",
+        "updated_at": "2023-09-26T19:23:39.050Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77ba7b8e-992e-488d-8162-7533fbfe1e71",
+        "total_price": 21554,
+        "status": "Delivered",
+        "created_at": "2023-09-26T21:25:20.657Z",
+        "updated_at": "2023-09-26T19:56:49.568Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c119d92-7a18-4f37-9eae-aeb3e1196295",
+        "total_price": 34915,
+        "status": "Cancelled",
+        "created_at": "2023-09-27T01:01:17.024Z",
+        "updated_at": "2023-09-27T04:39:51.244Z",
+        "pharmacy_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "5c7cd34c-6038-4129-8b47-e1c534ad33dc",
+        "quantity": 57909,
+        "price": 50897,
+        "created_at": "2023-09-26T23:24:12.513Z",
+        "updated_at": "2023-09-27T05:35:45.497Z",
+        "order_id": "4b8b45b7-b33a-4957-a735-b0981a51b358",
+        "product_id": "8b651209-721e-4657-b55c-a8bac4991289"
+      },
+      {
+        "id": "70a43083-83ea-4680-9c49-0731b83fa7d0",
+        "quantity": 75529,
+        "price": 81479,
+        "created_at": "2023-09-27T06:10:54.577Z",
+        "updated_at": "2023-09-26T09:42:38.478Z",
+        "order_id": "d3d0a9c2-b49b-425c-9ad7-0224eeec3999",
+        "product_id": "3020d097-630f-4d43-8ce5-6f2baff49c44"
+      },
+      {
+        "id": "6694fe4f-e469-4db2-a1e0-6c168d8bad33",
+        "quantity": 10562,
+        "price": 28757,
+        "created_at": "2023-09-26T19:02:11.870Z",
+        "updated_at": "2023-09-26T18:56:53.794Z",
+        "order_id": "4c119d92-7a18-4f37-9eae-aeb3e1196295",
+        "product_id": "2b2c3928-a869-4915-8849-8947af3d08bc"
+      },
+      {
+        "id": "2cad5b64-5e78-4e0e-844f-48e65c6e7f90",
+        "quantity": 15255,
+        "price": 898,
+        "created_at": "2023-09-26T22:52:41.096Z",
+        "updated_at": "2023-09-26T21:01:28.038Z",
+        "order_id": "77ba7b8e-992e-488d-8162-7533fbfe1e71",
+        "product_id": "8b651209-721e-4657-b55c-a8bac4991289"
+      },
+      {
+        "id": "25382eab-663c-401b-be87-94977ba41556",
+        "quantity": 30541,
+        "price": 53126,
+        "created_at": "2023-09-26T13:57:24.755Z",
+        "updated_at": "2023-09-26T07:41:08.473Z",
+        "order_id": "77ba7b8e-992e-488d-8162-7533fbfe1e71",
+        "product_id": "2b2c3928-a869-4915-8849-8947af3d08bc"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "3a45661e-0370-4ec0-ae3c-d865d8ee9fc1",
+        "quantity": 75175,
+        "created_at": "2023-09-27T02:22:02.402Z",
+        "updated_at": "2023-09-27T04:10:42.754Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "8b651209-721e-4657-b55c-a8bac4991289"
+      },
+      {
+        "id": "680061cd-982d-4805-b373-a463e4606d72",
+        "quantity": 84364,
+        "created_at": "2023-09-27T02:32:35.939Z",
+        "updated_at": "2023-09-26T23:26:32.438Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "9c499212-5e16-4020-9408-97d75de69a30"
+      },
+      {
+        "id": "84bf2560-00bf-4022-bec6-27eaed569368",
+        "quantity": 31289,
+        "created_at": "2023-09-27T06:38:09.953Z",
+        "updated_at": "2023-09-26T22:10:48.511Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "8b651209-721e-4657-b55c-a8bac4991289"
+      },
+      {
+        "id": "870be702-997e-4dd4-a745-edf6df5ab271",
+        "quantity": 75488,
+        "created_at": "2023-09-26T12:12:31.585Z",
+        "updated_at": "2023-09-26T20:58:51.604Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "9c499212-5e16-4020-9408-97d75de69a30"
+      },
+      {
+        "id": "4a62b8ab-f76a-4b56-85fc-3568716b423c",
+        "quantity": 85598,
+        "created_at": "2023-09-26T10:20:40.271Z",
+        "updated_at": "2023-09-26T17:12:50.381Z",
+        "pharmacy_id": "main_entity_pk",
+        "product_id": "3020d097-630f-4d43-8ce5-6f2baff49c44"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5af146dc-e2f6-4ac3-8baa-4fe367ffe3bb",
+        "email": "Citlalli79@roq.tech",
+        "firstName": "Jake",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/338.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aff3b97c-7b72-47e9-b431-572e98f3b2cb",
+        "email": "Reggie68@roq.tech",
+        "firstName": "Brad",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/920.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42bb8342-9e37-4692-867f-f5bd84de2a92",
+        "email": "Reina81@roq.tech",
+        "firstName": "Theodore",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31639d95-82de-47f1-9bf2-39e4a03a7edf",
+        "email": "Hayden_Roob66@roq.tech",
+        "firstName": "Sunny",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/275.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28a4021e-b9c8-472c-b723-6b8c1beb506f",
+        "email": "Felicita14@roq.tech",
+        "firstName": "Norma",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
